@@ -77,6 +77,8 @@ public class CheckLabConfig {
 		String yourOS = System.getProperty("os.name").toLowerCase();
 		String yourOSVersion = System.getProperty("os.version");
 
+		System.out.println("Your OS is: " + yourOS);
+		System.out.println("Your OS version is: " + yourOSVersion);
 		if (yourOS.contains("windows")) {
 			checkConfig(true);
 		} else {
